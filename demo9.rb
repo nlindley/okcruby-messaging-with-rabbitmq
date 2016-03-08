@@ -2,7 +2,6 @@ require 'rubygems'
 require 'bundler/setup'
 
 require 'bunny'
-require 'faker'
 
 conn = Bunny.new
 conn.start
